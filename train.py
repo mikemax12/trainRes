@@ -5,7 +5,6 @@ from PIL import Image
 import json
 # Using pretrained weights:
 from torchvision.models import resnet18, ResNet18_Weights
-from datasets import load_dataset
 
 from torch.utils.data import DataLoader
 from torchvision import transforms
